@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../src/output.css" rel="stylesheet" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Meet landing page</title>
+  </head>
+  <body>
+    <div class="nav flex justify-center pt-12">
+      <img src="../starter-code/assets/logo.svg" alt="logo" />
+    </div>
+    <div
+      class="hero grid grid-cols-2 grid-rows-2 items-center justify-items-center overflow-hidden py-16 lg:grid-cols-3 lg:grid-rows-1"
+    >
+      <img
+        src="../starter-code/assets/desktop/image-hero-left.png"
+        alt="image-hero-left"
+        class="col-start-1 max-w-full"
+      />
+      <img
+        src="../starter-code/assets/desktop/image-hero-right.png"
+        alt="image-hero-right"
+        class="col-start-2 max-w-full lg:col-start-3"
+      />
+      <div
+        class="text-content col-span-2 row-start-2 flex flex-col items-center gap-6 px-[35px] pt-12 text-center lg:col-span-1 lg:col-start-2 lg:row-start-1 lg:pt-0"
+      >
+        <h1 class="font-redHat text-[40px] font-black">
+          Group Chat for Everyone
+        </h1>
+        <p class="font-redHat text-[18px] text-slate-600">
+          Meet makes it easy to connect with others face-to-face virtually and
+          collaborate across any device.
+        </p>
+        <div class="flex flex-col gap-4 md:flex-row">
+          <button class="btn bg-cyan-600 hover:bg-cyan-300">
+            Download v1.3
+          </button>
+          <button class="btn bg-purple-600 hover:bg-purple-300">
+            What is it?
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="main-content test flex flex-col items-center justify-center px-8 pb-16 pt-8"
+    >
+      <div class="number flex flex-col items-center">
+        <!-- Vertical line -->
+        <div class="h-20 w-[1px] bg-gray-300"></div>
+        <!-- Circle with number -->
+        <div
+          class="flex h-14 w-14 items-center justify-center rounded-full border-2 border-gray-300"
+        >
+          <span class="text-2xl font-bold text-gray-500">01</span>
+        </div>
+      </div>
+      <div
+        class="image-collage grid grid-cols-2 grid-rows-2 gap-4 py-16 md:grid-cols-4 md:grid-rows-1"
+      >
+        <img
+          src="../starter-code//assets/desktop/image-woman-in-videocall.jpg"
+          alt=""
+          class="rounded-md"
+        />
+        <img
+          src="../starter-code/assets/desktop/image-women-videochatting.jpg"
+          alt=""
+          class="rounded-md"
+        />
+        <img
+          src="../starter-code/assets/desktop/image-men-in-meeting.jpg"
+          alt=""
+          class="rounded-md"
+        />
+        <img
+          src="../starter-code/assets/desktop/image-man-texting.jpg"
+          alt=""
+          class="rounded-md"
+        />
+      </div>
+      <div class="text-content text-center">
+        <div class="title flex flex-col gap-4">
+          <h2
+            class="font-redHat text-[12px] font-black uppercase tracking-[4px] text-cyan-600"
+          >
+            Built for modern use
+          </h2>
+          <h1 class="font-redHat text-[32px] font-black">
+            Smarter meetings, all in one place
+          </h1>
+        </div>
+        <div class="message">
+          <p class="pt-8 font-redHat text-[16px] font-medium text-slate-600">
+            Send messages, share files, show your screen, and record your
+            meetings — all in one workspace. Control who can join with
+            invite-only team access, data encryption, and data export.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer relative">
+      <div class="number flex flex-col items-center">
+        <div class="h-20 w-[1px] bg-slate-300"></div>
+        <div
+          class="flex h-14 w-14 items-center justify-center rounded-full border-2 border-slate-300"
+        >
+          <span class="text-2xl font-black text-slate-600">02</span>
+        </div>
+      </div>
+      <div class="hero bg-mobile bg-cover bg-center">
+        <div
+          class="flex flex-col items-center justify-center gap-6 bg-cyan-600 bg-opacity-80 px-8 py-16 text-center"
+        >
+          <h1 class="font-redHat text-[32px] font-black text-white">
+            Experience more together
+          </h1>
+          <p class="font-redHat font-medium text-white">
+            Stay connected with reliable HD meetings and unlimited one-on-one
+            and group video sessions.
+          </p>
+          <button class="btn group bg-purple-600 hover:bg-purple-300">
+            Download
+            <span class="text-purple-300 group-hover:text-white">v1.3</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

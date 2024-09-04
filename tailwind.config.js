@@ -23,7 +23,7 @@ module.exports = {
         },
       },
       backgroundImage: {
-        mobile: "url('../starter-code/assets/mobile/image-footer.jpg')",
+        mobile: "url('./starter-code/assets/mobile/image-footer.jpg')",
       },
     },
   },

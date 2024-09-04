@@ -1931,7 +1931,7 @@ video {
 }
 
 .bg-mobile{
-  background-image: url('../starter-code/assets/mobile/image-footer.jpg');
+  background-image: url('./starter-code/assets/mobile/image-footer.jpg');
 }
 
 .decoration-slice{

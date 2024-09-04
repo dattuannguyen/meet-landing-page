@@ -2758,6 +2758,10 @@ video {
   .md\:flex-row{
     flex-direction: row;
   }
+
+  .md\:bg-tablet{
+    background-image: url('./starter-code/assets/tablet/image-footer.jpg');
+  }
 }
 
 @media (min-width: 1024px){
@@ -2783,6 +2787,10 @@ video {
 
   .lg\:grid-rows-1{
     grid-template-rows: repeat(1, minmax(0, 1fr));
+  }
+
+  .lg\:bg-desktop{
+    background-image: url('./starter-code/assets/desktop/image-footer.jpg');
   }
 
   .lg\:pt-0{

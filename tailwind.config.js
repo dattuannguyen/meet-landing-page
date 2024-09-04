@@ -24,6 +24,8 @@ module.exports = {
       },
       backgroundImage: {
         mobile: "url('./starter-code/assets/mobile/image-footer.jpg')",
+        tablet: "url('./starter-code/assets/tablet/image-footer.jpg')",
+        desktop: "url('./starter-code/assets/desktop/image-footer.jpg')",
       },
     },
   },
